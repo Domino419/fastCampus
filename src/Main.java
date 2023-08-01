@@ -6,5 +6,6 @@ public class Main {
             System.out.println("Hello world" + Cnt  );
         }
         System.out.println("for문 종료 ! " + Cnt  );
+
     }
 }
