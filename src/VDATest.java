@@ -29,3 +29,9 @@ public class VDATest {
 
     }
 }
+
+// 정수데이터 = int
+// 실수 데이터 = float , doble
+// 책 데이터 = 객체자료, class를 만들어서 사용
+// 영화 데이터  = 객체자료, class를 만들어서 사용
+// 문자열 데이터 = String
