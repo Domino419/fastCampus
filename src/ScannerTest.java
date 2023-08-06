@@ -11,12 +11,27 @@ public class ScannerTest {
         float fnum = scan.nextFloat() ; // 실수입력 
         System.out.println(" 입력받은 실수 fnum : " + fnum );
 
-        scan.nextLine(); // 버퍼 비우기 
 
         System.out.println( " 단어를 입력하세요 : ");
-        String word = scan.nextLine() ; // 단어입력
-        System.out.println(" 입력받은 단어 word : " + word );
+        String word1 = scan.next() ; // 단어입력
+        System.out.println(" 입력받은 단어 word : " + word1 );
+
+        scan.nextLine(); // 버퍼 비우기
+        System.out.println(" ----  버퍼 비우기 ---- " );
+
+        System.out.println( " 단어를 입력하세요 : ");
+        String word2 = scan.nextLine() ; // 단어입력
+        System.out.println(" 입력받은 단어 word2 : " + word2 );
+
+
+        scan.close(); // 스캔 클로징 
+        System.out.println(" ----  scan.close() 완료 ---- " );
+
 
 
     }
 }
+
+// 키보드 > 자바 , 스트림 - 흐름, 이동, 통로..
+// 입력 스트림 , 출력 스트림
+
