@@ -21,7 +21,7 @@ public class CarUtilityTest {
        CarDTO.carName=carName ;
        CarDTO.carSn=carSn ;
 
-        //carPrintTest(CarDTO) ;
+        carPrintTest(CarDTO) ;
 
     }
     public static void carPrintTest(CarDTO CarDTO) {

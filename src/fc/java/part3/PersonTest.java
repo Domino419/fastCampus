@@ -1,6 +1,6 @@
 package fc.java.part3;
 
-import fc.java.part2.Book;
+import fc.java.model.PersonDTO;
 
 public class PersonTest {
     public static void main(String[] args) {
